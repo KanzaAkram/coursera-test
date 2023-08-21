@@ -1,0 +1,78 @@
+body {
+	font-size: 16 px; /*standard font size*/
+	color: #000; /*any text is going to be white*/
+	background-color: #9B8CDA; /*its going to match the napkin style of the restraunt*/
+	font-family: 'Oxygen', sans-serif; /*Its the general font on the website*/
+}
+
+
+/*Building up the header of the web*/
+#header-nav {
+	background-color: #8557AA;
+	border-radius: 0;
+	border: 0;
+
+}
+
+
+.navbar-brand {
+	padding-top: 25px;
+	margin-bottom: 25px;
+}
+.navbar-brand h1 {/*Restraunt name*/
+	font-family: 'Lora',serif;
+	color: #433A35;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	
+}
+.navbar-brand a:hover, .navbar-brand a:focus {/*to disable the underline thing on compan's name*/
+	text-decoration:none;
+}
+
+
+#nav-list {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#nav-list a {
+	color: #1A1036;/*the link will have a moroon color as background*/
+	text-align: center;
+	font-size: 1.8em;
+}
+#nav-list a:hover {
+	background: #998CBF;
+}
+
+
+button.navbar-toggle , .navbar-header .icon-bar{
+	border: 2px solid #1A1036;
+}
+/*
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 2px solid #1A1036;
+}*/
+
+/*End header */
+
+/*Home Page*/
+#chicken, #beef, #sushi {
+	background-color: #C1B1CB;
+	text-align: justify;
+	padding:10px;
+	margin-bottom: 15px;/*to separate a lil bit from footer*/
+	position: relative;/*it will rest up the child elements to position them absolutely within this element*/
+	overflow: hidden;/*to clip anything that stick out a lil bit */
+}
+
+
+
+
+#collapsable-nav a { /*Collapsable nav menu glyph*/
+	font-size: 1.2em;/*we are increasing the size of menu word from 16x1.2 so fontsize would be 19.2px*/
+}
